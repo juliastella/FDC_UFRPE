@@ -30,3 +30,5 @@ for i in s:
     pilha.inserir(i)
 
 while not pilha.isVazia(): #falta terminar
+    no_removido = pilha.remover()
+    print(no_removido.dado)
